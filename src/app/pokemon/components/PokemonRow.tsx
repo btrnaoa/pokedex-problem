@@ -7,9 +7,9 @@ type PokemonRowProps = {
 
 export default function PokemonRow(props: PokemonRowProps) {
   return (
-    <div>
+    <li>
       <Image src={props.sprite} width={96} height={96} alt={props.name} />
       <p>{props.name}</p>
-    </div>
+    </li>
   );
 }
