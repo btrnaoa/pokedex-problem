@@ -1,4 +1,4 @@
-import PokedexTable from './components/PokedexTable';
+import FilterablePokedexTable from './components/FilterablePokedexTable';
 import { Pokemon } from './types';
 
 const pokemonArray: Pokemon[] = [
@@ -26,5 +26,5 @@ const pokemonArray: Pokemon[] = [
 ];
 
 export default function Pokemon() {
-  return <PokedexTable pokemon={pokemonArray} />;
+  return <FilterablePokedexTable pokemon={pokemonArray} />;
 }
